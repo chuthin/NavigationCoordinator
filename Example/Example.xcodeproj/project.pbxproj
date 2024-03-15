@@ -23,6 +23,7 @@
 		848F929B2BA307750035451B /* CartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F929A2BA307750035451B /* CartButton.swift */; };
 		848F929D2BA307FB0035451B /* ShoppingCartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F929C2BA307FB0035451B /* ShoppingCartManager.swift */; };
 		848F929F2BA309D80035451B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F929E2BA309D80035451B /* CartView.swift */; };
+		848F92A42BA3FC630035451B /* AppDeeplink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F92A32BA3FC630035451B /* AppDeeplink.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		848F929A2BA307750035451B /* CartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartButton.swift; sourceTree = "<group>"; };
 		848F929C2BA307FB0035451B /* ShoppingCartManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCartManager.swift; sourceTree = "<group>"; };
 		848F929E2BA309D80035451B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		848F92A32BA3FC630035451B /* AppDeeplink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDeeplink.swift; sourceTree = "<group>"; };
+		848F92A52BA441E40035451B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +78,11 @@
 		84014B972BA29FF6003011C3 /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				848F92A52BA441E40035451B /* Info.plist */,
+				848F92A22BA3FC3A0035451B /* Route */,
 				848F92A12BA3EC240035451B /* Models */,
 				848F92A02BA3EBFB0035451B /* Views */,
 				84014B982BA29FF6003011C3 /* ExampleApp.swift */,
-				84014BAB2BA2A39B003011C3 /* AppRoute.swift */,
 				848F929C2BA307FB0035451B /* ShoppingCartManager.swift */,
 				84014B9C2BA29FF7003011C3 /* Assets.xcassets */,
 				84014B9E2BA29FF7003011C3 /* Preview Content */,
@@ -116,6 +120,15 @@
 				84014BAF2BA2B290003011C3 /* Models.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		848F92A22BA3FC3A0035451B /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				84014BAB2BA2A39B003011C3 /* AppRoute.swift */,
+				848F92A32BA3FC630035451B /* AppDeeplink.swift */,
+			);
+			path = Route;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +214,7 @@
 				84014BAA2BA2A36B003011C3 /* SettingView.swift in Sources */,
 				848F92932BA3019C0035451B /* AllergiesDetailView.swift in Sources */,
 				84014BAC2BA2A39B003011C3 /* AppRoute.swift in Sources */,
+				848F92A42BA3FC630035451B /* AppDeeplink.swift in Sources */,
 				84014B9B2BA29FF6003011C3 /* HomeView.swift in Sources */,
 				84014BB02BA2B290003011C3 /* Models.swift in Sources */,
 				84014BAE2BA2ABB4003011C3 /* FoodDetailView.swift in Sources */,
@@ -342,6 +356,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -371,6 +386,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Example/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Example/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

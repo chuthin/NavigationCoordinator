@@ -21,6 +21,12 @@ open class Coordinator : ObservableObject {
     /// The starting route to be executed when the coordinator is initialized.
     public let startingRoute: Routable?
 
+    /// An array containing deep link assemblies registered with the coordinator.
+    public var assemblies = [DeeplinkAssembly]()
+
+    /// An optional error handler for handling unavailable or unsupported deep link transitions.
+    public var errorHandler: DeeplinkErrorHandlerProtocol?
+
     /**
      Initializes the coordinator with a navigation controller and an optional starting route.
 

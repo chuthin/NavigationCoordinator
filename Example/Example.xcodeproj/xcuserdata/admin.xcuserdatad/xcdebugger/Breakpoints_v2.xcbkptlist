@@ -3,4 +3,213 @@
    uuid = "12D5883B-CEE0-432B-8C84-339D08C39658"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F654131-8EA1-4DF2-98DC-26016575E31B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Example/ExampleApp.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C21D125E-ADE5-430F-97AD-9264FBF52570"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Sources/NavigationCoordinator/Deeplink/Coordinator+DeeplinkProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "open(url:environmentObjects:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B2923C00-C9F9-4729-96A7-36A521CB8EDF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../Sources/NavigationCoordinator/Deeplink/Coordinator+DeeplinkProvider.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "open(url:environmentObjects:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B2923C00-C9F9-4729-96A7-36A521CB8EDF - 8fe7985e45bd9510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationCoordinator.Coordinator.open(url: Foundation.URL) -&gt; ()"
+                  moduleName = "Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/NavigationCoordinator/Sources/NavigationCoordinator/Deeplink/Coordinator+DeeplinkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "634">
+               </Location>
+               <Location
+                  uuid = "B2923C00-C9F9-4729-96A7-36A521CB8EDF - 8fe7985e45bd9510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NavigationCoordinator.Coordinator.open(url: Foundation.URL) -&gt; ()"
+                  moduleName = "Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/NavigationCoordinator/Sources/NavigationCoordinator/Deeplink/Coordinator+DeeplinkProvider.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "1085">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0A2C0565-AA41-40EF-93B3-E1A0F0C104A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Example/Route/AppDeeplink.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "endpoint(for:queryItems:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "748382DC-11EC-4C72-B0B1-5654737B5F8E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Example/Route/AppDeeplink.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "endpoint(for:queryItems:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "748382DC-11EC-4C72-B0B1-5654737B5F8E - 8d3dfc23a3acb688"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Example.AppDeeplink.endpoint(for: Swift.String, queryItems: Swift.Optional&lt;Swift.Array&lt;Foundation.URLQueryItem&gt;&gt;) -&gt; Swift.Optional&lt;NavigationCoordinator.Routable&gt;"
+                  moduleName = "Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/NavigationCoordinator/Example/Example/Route/AppDeeplink.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "705">
+               </Location>
+               <Location
+                  uuid = "748382DC-11EC-4C72-B0B1-5654737B5F8E - 8d3dfc23a3acb688"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Example.AppDeeplink.endpoint(for: Swift.String, queryItems: Swift.Optional&lt;Swift.Array&lt;Foundation.URLQueryItem&gt;&gt;) -&gt; Swift.Optional&lt;NavigationCoordinator.Routable&gt;"
+                  moduleName = "Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/NavigationCoordinator/Example/Example/Route/AppDeeplink.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1016">
+               </Location>
+               <Location
+                  uuid = "748382DC-11EC-4C72-B0B1-5654737B5F8E - 8d3dfc23a3acb688"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Example.AppDeeplink.endpoint(for: Swift.String, queryItems: Swift.Optional&lt;Swift.Array&lt;Foundation.URLQueryItem&gt;&gt;) -&gt; Swift.Optional&lt;NavigationCoordinator.Routable&gt;"
+                  moduleName = "Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/NavigationCoordinator/Example/Example/Route/AppDeeplink.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "1156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E0E4617F-D97E-48A7-B3EC-CC971427ED47"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Example/Route/AppDeeplink.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "endpoint(for:queryItems:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E0E4617F-D97E-48A7-B3EC-CC971427ED47 - 8d3dfc23a3acb6a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Example.AppDeeplink.endpoint(for: Swift.String, queryItems: Swift.Optional&lt;Swift.Array&lt;Foundation.URLQueryItem&gt;&gt;) -&gt; Swift.Optional&lt;NavigationCoordinator.Routable&gt;"
+                  moduleName = "Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/NavigationCoordinator/Example/Example/Route/AppDeeplink.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1255">
+               </Location>
+               <Location
+                  uuid = "E0E4617F-D97E-48A7-B3EC-CC971427ED47 - 8d3dfc23a3acb6a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Example.AppDeeplink.endpoint(for: Swift.String, queryItems: Swift.Optional&lt;Swift.Array&lt;Foundation.URLQueryItem&gt;&gt;) -&gt; Swift.Optional&lt;NavigationCoordinator.Routable&gt;"
+                  moduleName = "Example"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Documents/GitHub/NavigationCoordinator/Example/Example/Route/AppDeeplink.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "1262">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
