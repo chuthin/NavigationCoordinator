@@ -1,6 +1,10 @@
 # NavigationCoordinator for SwiftUI support deeplink
 Centralized route management with coordinator
-<img width="664" alt="Screenshot 2024-03-15 at 16 37 12" src="https://github.com/chuthin/NavigationCoordinator/assets/4926746/15a991a1-6dab-4142-982f-bb9e5fe77368">
+
+<img width="542" alt="Screenshot 2024-03-15 at 16 57 15" src="https://github.com/chuthin/NavigationCoordinator/assets/4926746/4bd7bf88-c350-41c7-87f8-ea19ada3e432">
+
+
+<br>
 
 Easy to use
 | | | 
