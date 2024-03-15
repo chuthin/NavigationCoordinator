@@ -1,1 +1,1 @@
-# NavigationCoordinator for SwiftUI
+# NavigationCoordinator for SwiftUI support deeplink
