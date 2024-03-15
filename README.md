@@ -1,1 +1,1 @@
-# NavigationCoordinator
+# NavigationCoordinator for SwiftUI
